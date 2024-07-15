@@ -1,6 +1,6 @@
 def total_salary(path):                   #функція приймає 1 аргумент path
     try: 
-        with open(path, 'r', encoding='utf-8') as file:  
+        with open(path, 'r', encoding='utf-8') as file:  #безпечне відкриття 
             lines = file.readlines()
 
         total = 0
